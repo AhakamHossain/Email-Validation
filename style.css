@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inp-box{
+    height: 20px;
+    position: relative;
+}
+#label{
+    position: absolute;
+    margin-left: 5px;
+    color: gray;
+    cursor: initial;
+    transition: all 0.5s;
+}
+#inp{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 330px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+#msg{
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #fff;
+}
